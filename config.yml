@@ -1,0 +1,54 @@
+# config.yml
+# Configuration file for the DynPricing prototype
+
+# REMARKS:
+# - PLEASE USE 2 SPACES FOR INDENTATION (NO TABS!)
+# - Careful with vertical spaces
+# - USE "!timestamp" TO MARK A DATE. EXAMPLE: "processDate : !timestamp 2006-02-01"
+---
+
+# Private configuration
+
+private:
+  path: "/Users/Fernando/Documents/Uni /TU Berlin/5. Masterarbeit/Transition Model Project/Transition Model v.0.3"
+  path_latex: "/Users/Fernando/Documents/Uni /TU Berlin/5. Masterarbeit/LateX/Images/R_Output"
+
+# Process configuration
+
+process:
+  # How to save files in Output folder: "csv" or "excel" files
+  save: "excel"
+
+# Load data configuration
+
+dumb:
+  # If set to FALSE, the prototype gets its data from a file
+  # "/data" ODIs TXL FRA 745 between 01/01/2016 - 31/12/2016  
+  # getSqlTable_Bookings(85875, '01.01.2016', '30.06.16')
+  # Overrides DB usage
+  readDump: FALSE
+
+# DB configuration
+
+db:
+  # driver parameters:
+  JDBC_driver: "oracle.jdbc.OracleDriver"
+  driver_path: "ojdbc7.jar"
+  # authorization arguments
+  username : 'BP_PROD'
+  password : 'MSFC'
+  jdbc.url : "jdbc:oracle:thin:@(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = vmh-msfc-dodt01.lsy.fra.dlh.de)(PORT = 1850))(ADDRESS = (PROTOCOL = TCP)(HOST = vmh-msfc-dodt02.lsy.fra.dlh.de)(PORT = 1850))(CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = TMSFC_TEST)))"
+  #username: REM_40_LF_FRC
+  #password: REM_40_LF_FRC
+  #"jdbc:oracle:thin:@(description = (address_list = (address = (COMMUNITY = tcp.world)(protocol = tcp)(host=cbb)(port = 1521))) (connect_data = (SID = REVM11R2)))"
+
+# Tecnical configuration
+
+technical:
+  # How many mb of memory should be allocated?
+  # Note: more than 2048 require 64-bit environment (R, Eclipse, ...)
+  memory.required : 4096
+  # Set seed for random generators (e.g. for demand probability function)
+  # Set to NULL if random seed is desired
+  random.seed : 100
+...
