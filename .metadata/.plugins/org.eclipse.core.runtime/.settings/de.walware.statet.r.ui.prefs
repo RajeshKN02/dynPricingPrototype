@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+editor.r/options/assist.circling.ordered_categories.ids\:enabled=R.Default\:true,templates\:true,R.Expl.RuntimeElements\:true,R.Expl.PkgNames\:true,paths\:false
+editor.r/options/assist.default.disabled_categories.ids=
+renv/index.console_update.mode=auto
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

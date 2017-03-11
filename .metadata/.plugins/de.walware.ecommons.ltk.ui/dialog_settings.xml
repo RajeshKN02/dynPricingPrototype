@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ContentAssist.Proposal.size">
+		<item value="165" key="contextSelector.size.y"/>
+		<item value="315" key="contextSelector.size.x"/>
+	</section>
+</section>

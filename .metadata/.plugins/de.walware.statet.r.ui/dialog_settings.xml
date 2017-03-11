@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewElementWizard">
+	</section>
+	<section name="ObjectBrowser">
+		<item value="true" key="filter.only_userspace.enabled"/>
+	</section>
+	<section name="r/tools/loadData-Wizard">
+	</section>
+</section>

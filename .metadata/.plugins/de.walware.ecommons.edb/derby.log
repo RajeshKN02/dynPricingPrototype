@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Sat Mar 04 16:19:35 CET 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-015a-99e7-9680-00006ebe84bc 
+on database directory /Users/Fernando/Documents/Uni /TU Berlin/5. Masterarbeit/Transition Model Project/Transition Model v.0.3/.metadata/.plugins/de.walware.statet.r.core/db with class loader org.eclipse.osgi.internal.loader.EquinoxClassLoader@20724c21[de.walware.3rdparty-org.apache.derby.core:10.10.2000000.b201609261900E46sw(id=937)] 
+Loaded from file:/Applications/Eclipse.app/Contents/Eclipse/../../../../Users/Fernando/.p2/pool/plugins/de.walware.3rdparty-org.apache.derby.core_10.10.2000000.b201609261900E46sw.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-b13
+user.dir=/Applications/Eclipse.app/Contents/MacOS
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.12.3
+derby.system.home=/Users/Fernando/Documents/Uni /TU Berlin/5. Masterarbeit/Transition Model Project/Transition Model v.0.3/.metadata/.plugins/de.walware.ecommons.edb
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Mar 04 16:19:59 CET 2017: Shutting down Derby engine
+----------------------------------------------------------------
+Sat Mar 04 16:19:59 CET 2017:
+Shutting down instance a816c00e-015a-99e7-9680-00006ebe84bc on database directory /Users/Fernando/Documents/Uni /TU Berlin/5. Masterarbeit/Transition Model Project/Transition Model v.0.3/.metadata/.plugins/de.walware.statet.r.core/db with class loader org.eclipse.osgi.internal.loader.EquinoxClassLoader@20724c21[de.walware.3rdparty-org.apache.derby.core:10.10.2000000.b201609261900E46sw(id=937)] 
+----------------------------------------------------------------
