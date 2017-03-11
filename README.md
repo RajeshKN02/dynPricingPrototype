@@ -2,8 +2,8 @@
 
 Prototype in R for a Dynamic Pricing Model. 
 
-1. loadData()
-2. sourceAll()
+1. sourceAll()
+2. loadData()
 3. dynPricingPrototype(): Prototype (in construction)
 
 ---
